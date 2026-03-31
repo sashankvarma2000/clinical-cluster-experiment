@@ -1,0 +1,25 @@
+# Virtual environment
+.venv/
+
+# Cached embeddings (large binary files)
+results/embeddings_*.npy
+results/tfidf_pipeline.joblib
+
+# Keep plots and CSV
+!results/umap_comparison.png
+!results/signal_injection_umap.png
+!results/summary_metrics.png
+!results/summary.csv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.DS_Store
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# Environment files — never commit API keys
+.env
+*.env
